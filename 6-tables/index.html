@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+
+    <style>
+        table {
+            border-spacing: 0;
+            border-collapse: separate;
+        }
+
+        thead tr th,
+        tbody tr td {
+            padding: 15px 10px;
+            border: 1px solid black;
+        }
+
+        thead tr th {
+            background-color: gray;
+        }
+
+        tbody tr td:first-child {
+            background-color: gray;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Country</th>
+                <th>Price</th>
+                <th>Nutrition</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Spinach</td>
+                <td>America</td>
+                <td>28</td>
+                <td>90</td>
+                <td>Veg</td>
+            </tr>
+            <tr>
+                <td>Carrots</td>
+                <td>France</td>
+                <td>56</td>
+                <td>75</td>
+                <td>Veg</td>
+            </tr>
+            <tr>
+                <td>Brocolli</td>
+                <td>Bulgaria</td>
+                <td>12</td>
+                <td>70</td>
+                <td>Veg</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>Morroco</td>
+                <td>15</td>
+                <td>56</td>
+                <td>Fruit</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
